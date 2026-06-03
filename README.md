@@ -4,6 +4,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 The production mode website can be accessed using the following link: https://ng-fittness-application.web.app/login
 
+## About The project:
+This application is built using Angular and leverages Firebase services for backend functionality. Firebase Authentication is used for user authentication, Firestore serves as the cloud-hosted NoSQL database for storing and retrieving application data, and AngularFire provides seamless integration between Angular and Firebase. The application follows a modern client-side architecture with real-time data synchronization and secure user management.
+## Tech Stack
+* Angular
+* TypeScript
+* Firebase Authentication
+* Cloud Firestore
+* AngularFire
+* RxJS
+* Angular Material
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
