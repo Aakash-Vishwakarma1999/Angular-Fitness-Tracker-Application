@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    width: 350px;
+    justify-content: center;
+    /* align-items: center; */
+    margin: auto;
+    height: 30vh;
+
+}
+
+.new-training{
+    width: 350px;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+mat-card-content{
+    margin: 10px;
+}

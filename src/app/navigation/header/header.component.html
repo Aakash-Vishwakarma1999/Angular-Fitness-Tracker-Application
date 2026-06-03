@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+    <div class="menu-btn">
+        <button mat-icon-button (click)="onToggleSidenav()">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </div>
+    <div><a routerLink="/">NG Fitness</a></div>
+    <div id="navigate">
+        <a routerLink="/signup" *ngIf="!isAuth">Signup</a>
+        <a routerLink="/login" *ngIf="!isAuth"  >Login</a>
+        <a routerLink="/training" *ngIf="isAuth">Training</a>
+        <a *ngIf="isAuth" (click)="onLogout()">Logout</a>
+    </div>
+</mat-toolbar>

@@ -1,0 +1,27 @@
+# dependencies
+/node_modules
+
+# build output
+/dist
+/tmp
+/out-tsc
+
+# Angular cache
+/.angular/cache
+
+# IDE
+.vscode/
+.idea/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# environment files (if they contain secrets)
+src/environments/environment.prod.ts
+src/environments/environment.ts

@@ -1,0 +1,26 @@
+#container{
+    display: flex;
+    /* width: 100%; */
+    /* height: 700px; */
+    /* border: 1px solid black; */
+    flex-direction: column;/* direction will be column wise */
+    justify-content: center;/*  will make the contents center according to our column height i.e 700px */
+    /* justify-content: flex-start;  */
+    align-items: center;/*will position opposite to our column direction i.e will position left to right */
+}
+mat-form-field{
+    width: 300px;
+    margin-top: 20px;
+    /* height: 300px; */
+   
+}
+
+#child1{
+    background-color: red;
+}
+#child2{
+    background-color: green;
+}
+#child3{
+    background-color: blue;
+}
