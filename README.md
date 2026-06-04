@@ -83,6 +83,8 @@ npm install -g @angular/cli
 ng new <project-name>
 cd <project-name>
 ng add @angular/fire
+## docs
+Angular Fire : https://github.com/angular/angularfire/tree/main/docs
 
 ## Build
 
